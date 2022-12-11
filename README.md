@@ -47,3 +47,7 @@ Save both in `.env`
 3. Run `python main.py` to start the bot
 
 Enjoy !
+
+## Questions ?
+
+Open a ticket on our Discord https://discord.gg/vA8kRutbyj
