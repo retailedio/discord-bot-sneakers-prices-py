@@ -35,6 +35,6 @@ async def handle_response(sku, size_us) -> str:
         if platform == "Stockx":
             platform = "StockX"
         if i['payoutUsd'] is not None and platform not in message:
-            message += f"${i['payoutUsd']} ({i['payoutEur']}€) at {platform} \n"
+            message += f"${i['payoutUsd']} at {platform} \n"
 
     return message
